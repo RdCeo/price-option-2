@@ -1,6 +1,6 @@
 import './App.css'
 import NavBar from './NavBar/NavBar';
-import DaisyNav from './Components/DaisyNav/DaisyNav';
+// import DaisyNav from './Components/DaisyNav/DaisyNav';
 
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
   return (
     <>
   <NavBar></NavBar>
-  <DaisyNav></DaisyNav>
-      <h1 className='text-3xl font-bold underline bg-orange-500'>Vite + React</h1>
+  {/* <DaisyNav></DaisyNav> */}
+      {/* <h1 className='text-3xl font-bold underline bg-orange-500'>Vite + React</h1> */}
 
       <div className="stats shadow">
   <div className="stat">
