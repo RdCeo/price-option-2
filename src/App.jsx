@@ -1,4 +1,5 @@
 import './App.css'
+import PriceOptions from './Components/PriceOptions/PriceOptions';
 import NavBar from './NavBar/NavBar';
 // import DaisyNav from './Components/DaisyNav/DaisyNav';
 
@@ -11,6 +12,9 @@ function App() {
   <NavBar></NavBar>
   {/* <DaisyNav></DaisyNav> */}
       {/* <h1 className='text-3xl font-bold underline bg-orange-500'>Vite + React</h1> */}
+
+<PriceOptions></PriceOptions>
+
 
       <div className="stats shadow">
   <div className="stat">
