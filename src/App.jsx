@@ -1,3 +1,4 @@
+import LineChart from './Components/LineChart/LineChart';
 import './App.css'
 import PriceOptions from './Components/PriceOptions/PriceOptions';
 import NavBar from './NavBar/NavBar';
@@ -14,6 +15,7 @@ function App() {
       {/* <h1 className='text-3xl font-bold underline bg-orange-500'>Vite + React</h1> */}
 
 <PriceOptions></PriceOptions>
+<LineChart></LineChart>
 
 
       <div className="stats shadow">
